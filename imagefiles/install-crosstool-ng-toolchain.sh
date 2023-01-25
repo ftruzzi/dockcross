@@ -53,8 +53,8 @@ if [ -z ${CONFIG_PATH} ] || [ ! -f ${CONFIG_PATH} ]; then
 fi
 
 if [ -z ${REV} ]; then
-  echo "WARNING: No version selected, use default version: crosstool-ng-1.23.0 (-v)."
-  REV=crosstool-ng-1.23.0
+  echo "WARNING: No version selected, use default version: crosstool-ng-1.25.0 (-v)."
+  REV=crosstool-ng-1.25.0
 fi
 
 
